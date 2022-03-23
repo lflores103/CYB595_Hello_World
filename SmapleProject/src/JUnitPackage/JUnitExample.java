@@ -9,7 +9,7 @@ public class JUnitExample {
 	@Test
 	public void test() {
 		System.out.println("Hello World I Work");
-        String str1="This is the testcase in this class";
-        assertEquals("This is the testcase in this class", str1);
+        String str1="This is not the testcase in this class";
+        assertEquals("This is not the testcase in this class", str1);
     }
 }
